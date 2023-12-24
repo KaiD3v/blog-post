@@ -48,7 +48,7 @@ const Home = () => {
               Ler Mais
             </Link>
             <button onClick={(e) => deletePost(post.id)} className="btn">
-              <span class="material-symbols-outlined">delete</span>
+              <span className="material-symbols-outlined">delete</span>
             </button>
           </div>
         ))
